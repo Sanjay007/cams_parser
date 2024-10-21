@@ -9,7 +9,7 @@ WORKDIR /cams_parser
 # COPY resources/ /api-flask/resources/
 # COPY static/ /api-flask/static/
 # COPY util/ /api-flask/util/
-COPY .env application.py requirements.txt  /cams_parser/
+COPY .env test.py requirements.txt  /cams_parser/
 
 # Upgrade pip and install Python dependencies
 RUN pip3 install --upgrade pip && pip install --no-cache-dir -r requirements.txt
