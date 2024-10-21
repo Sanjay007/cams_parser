@@ -3,7 +3,6 @@ blinker==1.7.0
 click==8.1.7
 Flask==3.0.0
 Flask-Cors==4.0.0
-jsonify=0.5
 Flask-RESTful==0.3.10
 flask-swagger-ui==4.11.1
 gunicorn==21.2.0
