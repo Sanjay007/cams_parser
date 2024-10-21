@@ -18,4 +18,4 @@ RUN pip3 install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Define the command to run the Flask application using Gunicorn
-CMD ["gunicorn", "application:app", "-b", "0.0.0.0:5000", "-w", "4"]
+CMD ["gunicorn", "test:app", "-b", "0.0.0.0:5000", "-w", "4"]
